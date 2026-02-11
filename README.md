@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This project uses an **ESP32** to fetch **live weather data** for **Manchester** from the **OpenWeatherMap API** and display the **temperature, humidity, and weather description** on an **I²C OLED (SSD1306)** screen.
+This project uses an **ESP32** to fetch **live weather data** for **any city** from the **OpenWeatherMap API** and display the **temperature, humidity, and weather description** on an **I²C OLED (SSD1306)** screen.
 The data is also printed to the **Serial Monitor** for debugging.
 
 ---

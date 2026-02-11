@@ -1,4 +1,4 @@
-# ESP32 Weather Display on OLED (Manchester)
+# ESP32 Weather Display on OLED
 
 ## Project Overview
 
@@ -78,25 +78,12 @@ const char* city = "Your_city";
 2. Sends a GET request to **OpenWeatherMap API** for Manchester’s weather.
 3. Parses the **JSON response** for temperature, humidity, and weather description.
 4. Displays the information on the **OLED screen**.
-5. Updates every **10 minutes** to respect API limits.
-
----
-
-## Screenshot / Display Example
-
-<p align="center">
-  <img src="weather_oled_example.JPG" width="500"/>
-</p>
-
----
-
-## Notes / Tips
-
-* Ensure your **API key** is valid and not expired.
-* Adjust the **update interval** in `loop()` if needed:
-
+5. Updates every **10 minutes**.
 ```cpp
 delay(600000); // 10 minutes
 ```
+<p align="center">
+  <img src="IMG_4789.JPG" width="500"/>
+</p>
 
 * The **OLED is monochrome**, so only text size and positioning can be adjusted for readability.

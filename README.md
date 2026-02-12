@@ -75,7 +75,7 @@ const char* city = "Your_city";
 ## How It Works
 
 1. ESP32 connects to WiFi.
-2. Sends a GET request to **OpenWeatherMap API** for Manchester’s weather.
+2. Sends a GET request to **OpenWeatherMap API** for your city’s weather.
 3. Parses the **JSON response** for temperature, humidity, and weather description.
 4. Displays the information on the **OLED screen**.
 5. Updates every **10 minutes**.
